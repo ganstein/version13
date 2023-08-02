@@ -3,7 +3,7 @@
 // Initialize the static pointer to nullptr
 AudioJ* AudioJ::instance = nullptr;
 
-const std::string AudioJ::RESOURCES_PATH = "../resources/";
+//const std::string AudioJ::RESOURCES_PATH = "../resources/";
 
 // Implementación de la función estática para obtener la única instancia del AudioJ
 AudioJ* AudioJ::getInstance() {
@@ -34,7 +34,7 @@ AudioJ::~AudioJ() {
 
 // Implementación de la función para inicializar el AudioJ (cargar sonidos, etc.)
 void AudioJ::initAudio(const std::string& filename) {
-    buffer.loadFromFile(RESOURCES_PATH + filename);
+    buffer.loadFromFile( filename);
         
    }
 
@@ -46,7 +46,7 @@ void AudioJ::playSound() {
 
 void AudioJ::playMusic(const std::string& filemusic) {
 
-    if (!music.openFromFile(RESOURCES_PATH + filemusic)) {
+    if (!music.openFromFile(filemusic)) {
         std::cout << "Error al cargar el archivo selva.wav" << std::endl;
     }
     std::cout << "Se carga el audio" << std::endl;
