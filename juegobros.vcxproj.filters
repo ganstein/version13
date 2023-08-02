@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="modelo">
+      <UniqueIdentifier>{6cc129ed-76a4-458a-a2d7-44daeda2121b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vista">
+      <UniqueIdentifier>{e9714892-dd7e-478f-89e4-7d0d550f6836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controlador">
+      <UniqueIdentifier>{f0ab204a-ef78-4a9d-b727-a5a1b863cc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MenuVista.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="MapaVista.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="JugadorVista.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTROLADOR.cpp">
+      <Filter>controlador</Filter>
+    </ClCompile>
+    <ClCompile Include="MODELO.cpp">
+      <Filter>modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="MapaModelo.cpp">
+      <Filter>modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="FondoVista.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="VISTA.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Evento.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="juegobros.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturaManager.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemigoVista.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemigosModelo.cpp">
+      <Filter>modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioJ.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemigoHijo.cpp">
+      <Filter>vista</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VISTA.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemigoVista.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturaManager.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemigosModelo.h">
+      <Filter>modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTROLADOR.h">
+      <Filter>controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioJ.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Evento.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="FondoVista.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="JugadorVista.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="MapaModelo.h">
+      <Filter>modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="MapaVista.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuVista.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+    <ClInclude Include="MODELO.h">
+      <Filter>modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemigoHijo.h">
+      <Filter>vista</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
